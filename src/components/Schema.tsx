@@ -54,7 +54,7 @@ const Schema = (props: any) => {
           },
           headline: name,
           description: document.c_metaDescription,
-          image: [document.c_bannerImage],
+          image: [document.c_bannerImage.image.url],
           author: {
             "@type": "Organization",
             name: "Verizon",
