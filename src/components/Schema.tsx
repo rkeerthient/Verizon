@@ -54,7 +54,7 @@ const Schema = (props: any) => {
           },
           headline: name,
           description: document.c_metaDescription,
-          image: [document.c_bannerImage.image.url],
+          image: [document.c_bannerImage.url],
           author: {
             "@type": "Organization",
             name: "Verizon",
@@ -67,7 +67,7 @@ const Schema = (props: any) => {
               url: "https://www.verizon.com/",
             },
           },
-          datePublished: "2023-03-15",
+          dateModified: "2023-03-15",
         }}
       />
       <JsonLd<FAQPage>
