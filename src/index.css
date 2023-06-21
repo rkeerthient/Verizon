@@ -65,6 +65,13 @@
   margin: 0 auto !important;
 }
 
+.bg-black {
+  background-color: black;
+}
+
+.bg-red {
+  background-color: crimson;
+}
 .slick-prev {
   left: 2em;
 }
