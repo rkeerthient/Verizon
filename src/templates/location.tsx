@@ -160,7 +160,7 @@ const Location: Template<TemplateRenderProps> = ({
                 </div>
               </div>
               <div className="flex justify-start gap-4 items-center font-semibold hover:cursor-pointer">
-                <div className="px-4 py-2 rounded-full border-2 bg-red text-white hover:bg-white  hover:text-black hover:border-black hover:border-2">
+                <div className="px-4 py-2 rounded-full border-2 bg-black text-white hover:bg-white  hover:text-black hover:border-black hover:border-2">
                   Check Your Data Usage
                 </div>
                 <div className="hover:underline">View Data Plans</div>
