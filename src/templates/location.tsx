@@ -167,7 +167,7 @@ const Location: Template<TemplateRenderProps> = ({
               </div>
             </div>
             <Image image={c_bannerImage}></Image>
-            <div className="w-2/3 space-y-4">
+            <div className="space-y-4">
               <RTF>{c_sEOPageBody}</RTF>
               <hr />
 
