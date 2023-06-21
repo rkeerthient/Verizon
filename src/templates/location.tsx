@@ -166,7 +166,7 @@ const Location: Template<TemplateRenderProps> = ({
                 <div className="hover:underline">View Data Plans</div>
               </div>
             </div>
-            <Image image={c_bannerImage} className="w-full"></Image>
+            <Image image={c_bannerImage} className="object-cover"></Image>
             <div className="w-3/4 space-y-4">
               <RTF>{c_sEOPageBody}</RTF>
               <hr />
