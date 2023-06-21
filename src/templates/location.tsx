@@ -142,7 +142,7 @@ const Location: Template<TemplateRenderProps> = ({
             <div className="w-2/3 space-y-4">
               <div className="text-sm flex gap-2">
                 <div className="underline hover:cursor-pointer hover:no-underline">
-                  Internet Services
+                  Data Optimization
                 </div>
                 <div>/</div> <div className="font-bold">{name}</div>
               </div>
@@ -152,18 +152,18 @@ const Location: Template<TemplateRenderProps> = ({
               </h2>
               <div className="flex justify-start gap-4">
                 <div>
-                  <span className="font-bold">Reviewed by:</span>Verizon
+                  <span className="font-bold">Reviewed by:</span>Tracfone
                   Editorial Team
                 </div>
                 <div>
-                  <span className="font-bold">Last reviewed:</span>3.15.2023
+                  <span className="font-bold">Last reviewed:</span>6.19.2023
                 </div>
               </div>
               <div className="flex justify-start gap-4 items-center font-semibold hover:cursor-pointer">
-                <div className="px-4 py-2 rounded-full border-2 bg-black text-white hover:bg-white  hover:text-black hover:border-black hover:border-2">
-                  Internet Service Availability
+                <div className="px-4 py-2 rounded-full border-2 bg-red text-white hover:bg-white  hover:text-black hover:border-black hover:border-2">
+                  Check Your Data Usage
                 </div>
-                <div className="hover:underline">Wi-Fi Speed Check</div>
+                <div className="hover:underline">View Data Plans</div>
               </div>
             </div>
             <Image image={c_bannerImage}></Image>
